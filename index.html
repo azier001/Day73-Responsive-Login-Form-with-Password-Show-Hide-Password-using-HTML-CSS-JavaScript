@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Day73-Responsive Login Form with Password ShowHide Password using HTML CSS
+      & JavaScript
+    </title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="form-container">
+      <form action="">
+        <h3>Login at Azier Media</h3>
+        <label for="username">Username</label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="Enter email or phone"
+        />
+
+        <label for="password">Password</label>
+        <div class="pass">
+          <input
+            type="password"
+            class="pass"
+            name="password"
+            placeholder="Enter Password"
+            id="password"
+          />
+          <i id="show-hide" class="fa-solid fa-eye-slash"></i>
+        </div>
+        <button type="submit">log In</button>
+        <hr />
+        <div class="social-container">
+          <h3>Login using</h3>
+          <div class="social">
+            <div>
+              <a href="" class="go"><i class="fab fa-google"></i>Google</a>
+            </div>
+            <div>
+              <a href="" class="fb"><i class="fab fa-facebook"></i>Facebook</a>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
